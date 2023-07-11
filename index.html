@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Império Coffe Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("./imagens/fundo.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        header {
+            padding: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            color: #3B7A57;
+            text-decoration: none;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 30px;            
+            font-family: Playfair-Display;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .social-icons {
+            display: flex;
+        }
+
+        .social-icons img {
+            margin-left: 10px;
+        }
+
+        .component {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-top: 100px;
+        }
+            
+        .image {
+            flex-shrink: 0;
+            margin-right: 10px;
+            margin-left: 25px;
+        }
+            
+        .comment {
+            color: #3B7A57;
+            font-size: 20px;
+            font-family: Lato;
+            flex-grow: 1;
+            margin-right: 20px;
+            margin-left: 10px;
+        }
+            
+        .button {
+            background-color: #3B7A57;
+            color: #FFD700;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-family: Playfair-Display;
+            border-radius: 1rem;
+            margin-top: 10px;
+            margin-left: 400px;
+        }
+
+        .nossoEspaço{
+            margin-top: 200px;
+            display: flex;
+            justify-content: center;
+            color: #3B7A57;            
+            font-family: Playfair-Display;
+        }
+
+        .espaçoImg{
+            margin-left: 200px;
+        }
+
+        .maisFotos{
+            display: flex;
+            justify-content: center;
+            color: #3B7A57; 
+            font-size: 25px;           
+            font-family: Lato;
+        }
+
+        footer {
+            background-image: url("./imagens/unsplash_xpo5BggQo3E.svg");
+            background-repeat: no-repeat;
+            background-color: black;
+            color: #FFD700;
+            padding: 20px;
+            height: 130px;
+            margin-top: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .left-section {
+            display: flex;
+            align-items: center;
+            margin-left: 500px;
+        }
+        
+        .center-section {           
+            font-family: Lato;
+            text-align: center;
+        }
+        
+        .right-section img {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./imagens/Império Coffee 1.svg" alt="Logo">
+        </div>
+        <nav >
+            <strong>
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+            <a href="#">Sobre Nós</a>
+            </strong>
+            <hr>
+        </nav>
+        <div class="social-icons">
+            <a href="#">
+                <img src="./imagens/Facebook.svg" alt="RedesSociais">
+            </a>
+            <a href="#">
+                <img src="./imagens/Instagram.svg" alt="RedesSociais">
+            </a>
+            <a href="#">
+                <img src="./imagens/WhatsApp.svg" alt="RedesSociais">
+            </a>
+        </div>
+    </header>
+
+    <div class="component">
+        <img class="image" src="./imagens/unsplash_cSVW9SnFXio.svg" alt="Imagem">
+        <div class="comment">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
+        
+            <button href="#" class="button">Conheça o espaço</button>
+        </div>
+        
+    </div>
+
+    <div>
+        <h1 class="nossoEspaço">Nosso Espaço</h1>
+        <img class="espaçoImg" src="./imagens/FotosNossoEspaco.svg" alt="Imagem">
+
+        <a class="maisFotos" href="#">Mais fotos</a>
+    </div>
+    
+    <footer>
+        <div class="left-section">
+            <span>Rua Café, 180, Centro <br> Cafeicultura <br> Minas Gerais</span>
+        </div>
+        <div class="center-section">
+            <span>imperiocoffeeshop@imperioemail</span> <br> <span>tel.: (33)3333-3333</span>
+        </div>
+        <div class="right-section">
+            <img src="./imagens/Império Coffee 1.svg" alt="Logo">
+        </div>
+    </footer>
+
+</body>
+
+</html>
